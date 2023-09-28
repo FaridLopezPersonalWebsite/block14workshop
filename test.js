@@ -14,4 +14,27 @@ for (let i = 0; i < numbers.length; i++) {
 
 console.log(oddNumbers);*/
 
-//Create an array
+
+//VOWEL VS CONSONANT 
+//Create an array of lowercase words
+// print word with how many consonants and vowels it has
+// a, e, i, o, u are vowels, everything else is a consonant
+
+const vowels = [ "a", "e", "i", "o", "u"]
+const consonant = [ ]
+
+for (let i=0; i ) {
+
+}
+
+
+
+//REVERSE ARRAY
+//Create an array with numbers requested (1,2,3)
+//Create for loop to populate the array in reverse (3,2,1)
+
+/*const numbers = [ 1, 2 ,3]
+
+for (let i= numbers.length; i >= 1 ; i--) {
+    console.log(i);
+}*/
