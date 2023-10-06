@@ -20,12 +20,24 @@ console.log(oddNumbers);*/
 // print word with how many consonants and vowels it has
 // a, e, i, o, u are vowels, everything else is a consonant
 
-const vowels = [ "a", "e", "i", "o", "u"]
-const consonant = [ ]
 
-for (let i=0; i ) {
 
-}
+// const count = (sentence) => { 
+     
+//     let vow = 0; 
+//     let cons = 0; 
+     
+//     for(let i = 0; i < sentence.length; i++){ 
+//         let ele = sentence[i]; 
+//         if(ele == 'a' || ele == 'e' || ele == 'i' || ele == 'o' || ele == 'u') 
+//             vow += 1; 
+//         else 
+//             cons += 1; 
+//     }; 
+//     console.log(`${sentence}` +` ${vow} vowels are present `+`${cons} consonants are present.`); 
+// }; 
+ 
+// count("Hello"); 
 
 
 
@@ -38,3 +50,31 @@ for (let i=0; i ) {
 for (let i= numbers.length; i >= 1 ; i--) {
     console.log(i);
 }*/
+
+
+//FIZZBUZZ
+
+//Create a JavaScript code that prints each number from 1 to 100 on a new line.
+
+//For each multiple of 3, print "Fizz" instead of the number.
+
+//For each multiple of 5, print "Buzz" instead of the number.
+
+//For numbers that are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
+
+
+
+
+for (var i = 1; i <= 100; i++){
+
+if (i%5===0 && i%3===0){
+    console.log("FizzBuzz");
+}
+else if(i%5===0){
+    console.log("Buzz");
+}
+else if (i%3===0){
+    console.log("Fizz");
+}
+ else {console.log(i)};
+}
