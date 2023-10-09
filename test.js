@@ -65,7 +65,7 @@ for (let i= numbers.length; i >= 1 ; i--) {
 
 
 
-for (var i = 1; i <= 100; i++){
+for (let i = 1; i <= 100; i++){
 
 if (i%5===0 && i%3===0){
     console.log("FizzBuzz");
